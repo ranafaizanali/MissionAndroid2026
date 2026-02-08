@@ -21,11 +21,9 @@ This course is designed to take you from a total beginner to a production-ready 
 
 | Platform | Link |
 | :--- | :--- |
-| 📺 **YouTube Playlist** | [Watch the Series Here](YOUR_YOUTUBE_LINK_HERE) |
-| 💬 **Discord Community** | [Join Neat Roots on Discord](YOUR_DISCORD_LINK_HERE) |
-| 📸 **Instagram** | [Follow for Updates](YOUR_INSTAGRAM_LINK_HERE) |
+| **YouTube Playlist** | [Watch the Series Here](YOUR_YOUTUBE_LINK_HERE) |
+| **Discord Community** | [Join Neat Roots on Discord](YOUR_DISCORD_LINK_HERE) |
 
----
 
 ## How to Practice
 1. **Star this Repo:** Click the ⭐ button at the top right to save this roadmap.
