@@ -4,11 +4,7 @@
 ![Language](https://img.shields.io/badge/Language-Kotlin-purple?style=for-the-badge&logo=kotlin)
 ![UI](https://img.shields.io/badge/UI-Jetpack_Compose-blue?style=for-the-badge&logo=jetpackcompose)
 
-Welcome to the **Official Code Repository** for the #MissionAndroid2026 course by **Neat Roots**. 🚀
-
-## 🎯 Our Mission
-Official source code for the #MissionAndroid2026 course by Faizan Ali on Neat Roots. Master Full-Stack Android Development with Kotlin, Jetpack Compose, and Modern Architecture. Join the mission to 1 Lakh developers!
----
+Welcome to the Official source code for the #MissionAndroid2026 course by Faizan Ali on Neat Roots. Master Full-Stack Android Development with Kotlin, Jetpack Compose, and Modern Architecture. Join the mission to 1 Lakh developers!
 
 ## 🗺️ What’s Inside this Course?
 This course is designed to take you from a total beginner to a production-ready developer.
