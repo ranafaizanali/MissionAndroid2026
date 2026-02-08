@@ -21,7 +21,7 @@ This course is designed to take you from a total beginner to a production-ready 
 
 | Platform | Link |
 | :--- | :--- |
-| **YouTube Playlist** | [Watch the Series Here]([YOUR_YOUTUBE_LINK_HERE](https://www.youtube.com/playlist?list=PLUhfM8afLE_MOoV5jIAj4UTJ3o43LEmoc)) |
+| **YouTube Playlist** | [Watch the Series Here](https://www.youtube.com/playlist?list=PLUhfM8afLE_MOoV5jIAj4UTJ3o43LEmoc) |
 | **Discord Community** | [Join Neat Roots on Discord](YOUR_DISCORD_LINK_HERE) |
 
 
