@@ -1,7 +1,11 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.2.0"
 }
 
 android {
@@ -33,8 +37,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = "11"
+    kotlin {
+        jvmToolchain(17)
+        compilerOptions{
+            jvmTarget.set(JvmTarget.JVM_11)
+            optIn.add("kotlin.RequiresOptIn")
+        }
     }
     buildFeatures {
         compose = true
@@ -57,4 +65,11 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // For Navigation
+    implementation("androidx.navigation:navigation-compose:2.9.6")
+
+    // Serialization
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
+
 }
