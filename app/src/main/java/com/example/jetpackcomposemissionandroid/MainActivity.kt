@@ -4,17 +4,11 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.jetpackcomposemissionandroid.jetpackcompose.ButtonExample
-import com.example.jetpackcomposemissionandroid.jetpackcompose.CardExample02
-import com.example.jetpackcomposemissionandroid.jetpackcompose.LoginScreen
-import com.example.jetpackcomposemissionandroid.jetpackcompose.OutlinedTextFieldExample
+import com.example.jetpackcomposemissionandroid.jetpackcompose.LazyColumnExample
+import com.example.jetpackcomposemissionandroid.jetpackcompose.LazyRowExample
+import com.example.jetpackcomposemissionandroid.jetpackcompose.NestedLazyLists
+import com.example.jetpackcomposemissionandroid.jetpackcompose.c10_navigation.NavGraph
+import com.example.jetpackcomposemissionandroid.jetpackcompose.c12_scaffold.MyScreen
 import com.example.jetpackcomposemissionandroid.ui.theme.JetpackComposeMissionAndroidTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeMissionAndroidTheme {
 
-
+                MyScreen()
 
             }
         }
