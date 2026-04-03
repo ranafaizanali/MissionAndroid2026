@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.example.jetpackcomposemissionandroid.sharedpref.SharedPreferences
 import com.example.jetpackcomposemissionandroid.ui.theme.JetpackComposeMissionAndroidTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,15 +24,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeMissionAndroidTheme {
 
-                Box(
-                    modifier = Modifier.fillMaxSize(),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Text(
-                        text = "Main Activity",
-                        fontSize = 16.sp
-                    )
-                }
+                SharedPreferences(this)
 
             }
         }
